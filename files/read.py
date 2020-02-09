@@ -1,0 +1,5 @@
+stream = open('./demo.txt', 'rt')
+print(stream.readable())
+print(stream.read(1))
+print(stream.readline())
+print(stream.readlines())

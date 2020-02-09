@@ -1,0 +1,5 @@
+stream = open('output.txt', 'wt')
+print(stream.writable())
+stream.write('L')
+stream.writelines(['orem ipsum dolor'])
+stream.close()
